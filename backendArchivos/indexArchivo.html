@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Node server</title>
+    <script type="text/javascript" src="./scriptarchivos.js"></script>
+</head>
+<body>
+    <fieldset title="Traer alumnos foto">
+        <legend>Traer alumnos foto</legend>
+        <button id="btnTraer">Traer</button>
+    </fieldset>
+    <br>
+    <fieldset title="Agregar alumnos foto">
+        <legend>Agregar alumnos foto</legend>
+        <label for="txtlegajo">legajo:</label>
+        <input type="text" name="" id="txtlegajo">
+        <br>
+        <label for="txtnombre">nombre:</label>
+        <input type="text" name="" id="txtnombre">
+        <br>
+        <label for="txtapellido">apellido:</label>
+        <input type="text" name="" id="txtapellido">
+        <br>
+        <label for="foto">Foto:</label>
+        <input type="file" name="foto" id="foto">
+        <br>
+        <input type="button" value="Agregar" id="btnAgregar">
+    </fieldset>
+    <br>
+    <fieldset title="Modificar alumnos foto">
+        <legend>Modificar alumnos foto</legend>
+        <label for="txtlegajo_m">legajo:</label>
+        <input type="text" name="" id="txtlegajo_m" readonly>
+        <br>
+        <label for="txtnombre_m">nombre:</label>
+        <input type="text" name="" id="txtnombre_m">
+        <br>
+        <label for="txtapellido_m">apellido:</label>
+        <input type="text" name="" id="txtapellido_m">
+        <br>
+        <label for="foto">Foto:</label>
+        <input type="file" name="foto_m" id="foto_m">
+        <br>
+        <img src="" id="imgFoto_m" width="50px" height="50px">
+        <br>
+        <input type="button" value="Modificar" id="btnModificar">
+    </fieldset>
+    <br>
+    <fieldset title="Eliminar alumnos foto">
+        <legend>Eliminar alumnos foto</legend>
+        <input type="text" name="" id="txtlegajo_e" readonly>
+        <button id="btnEliminar">Eliminar</button>
+    </fieldset>
+    <br>
+    <div id="divListado"></div>
+</body>
+</html>

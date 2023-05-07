@@ -1,0 +1,2 @@
+{"legajo":9,"nombre":"milagros","apellido":"luna","path":"fotos/9.jpeg"},
+{"legajo":5,"nombre":"roberto","apellido":"gomez","path":"fotos/5.jpeg"},
